@@ -7,30 +7,30 @@ Docker  (18.06.1-ce)
 ## Build docker images
 
 ### 1. streamTweets
-To build streamTweets, run from the project home directory \ 
-  sudo docker build -t <img_name>:<img_tag> ./streamTweets \
+To build streamTweets, run from the project home directory <br/> 
+  sudo docker build -t <img_name>:<img_tag> ./streamTweets <br/>
 
 ### 2. cleanTweets
-To build cleanTweets, run from the project home directory \
-  sudo docker build -t <img_name>:<img_tag> ./cleanTweets \
+To build cleanTweets, run from the project home directory <br/>
+  sudo docker build -t <img_name>:<img_tag> ./cleanTweets <br/>
 
 ### 3. analyseTweets
-To build analyseTweets, run from the project home directory \
-  sudo docker build -t <img_name>:<img_tag> ./analyseTweets \
+To build analyseTweets, run from the project home directory <br/>
+  sudo docker build -t <img_name>:<img_tag> ./analyseTweets <br/>
 
 ## Run docker images
 
 ### 1. streamTweets
-To run streamTweets, run the docker image \
-  sudo docker run -it <img_name>:<img_tag>   (for interactive mode) \ 
-  sudo docker run -d <img_name>:<img_tag>    (for detached mode) \
+To run streamTweets, run the docker image <br/>
+  sudo docker run -it <img_name>:<img_tag>   (for interactive mode) <br/> 
+  sudo docker run -d <img_name>:<img_tag>    (for detached mode) <br/>
   
 ### 2. cleanTweets
-To run cleanTweets, run the docker image \
-  sudo docker -it <img_name>:<img_tag>       (for interactive mode) \
-  sudo docker -d <img_name>:<img_tag>        (for detached mode) \
+To run cleanTweets, run the docker image <br/>
+  sudo docker -it <img_name>:<img_tag>       (for interactive mode) <br/>
+  sudo docker -d <img_name>:<img_tag>        (for detached mode) <br/>
 
 ### 3. analyseTweets
-To run analyseTweets, run the docker image \
-  sudo docker -it <img_name>:<img_tag>       (for interactive mode) \
-  sudo docker -d <img_name>:<img_tag>        (for detached mode) 
+To run analyseTweets, run the docker image <br/>
+  sudo docker -it <img_name>:<img_tag>       (for interactive mode) <br/>
+  sudo docker -d <img_name>:<img_tag>        (for detached mode) <br/>
