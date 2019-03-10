@@ -22,17 +22,14 @@ To build analyseTweets, run from the project home directory  <br/>
 
 ### 1. streamTweets
 To run streamTweets, run the docker image <br/>
-(for interactive mode) <br/>
->  sudo docker run -it <img_name>:<img_tag> <br/>
-(for detached mode) <br/>
->  sudo docker run -d <img_name>:<img_tag> <br/>
+>  sudo docker run <flags> -t <img_name>:<img_tag> <br/>
   
 ### 2. cleanTweets
 To run cleanTweets, run the docker image <br/>
->  sudo docker run -it <img_name>:<img_tag>   (for interactive mode) <br/>
->  sudo docker run -d <img_name>:<img_tag>    (for detached mode) <br/>
+>  sudo docker run <flags> -t <img_name>:<img_tag> <br/>
 
 ### 3. analyseTweets
 To run analyseTweets, run the docker image <br/>
->  sudo docker run -it <img_name>:<img_tag>   (for interactive mode) <br/>
->  sudo docker run -d <img_name>:<img_tag>    (for detached mode) <br/>
+>  sudo docker run <flags> -t <img_name>:<img_tag> <br/>
+  
+Use flags -d for detached mode or -i for interactive mode.
