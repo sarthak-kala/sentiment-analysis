@@ -1,0 +1,6 @@
+numpy=1.15.4
+pandas=0.23.4
+tqdm=4.28.1
+sklearn=0.20.1
+gensim=3.7.1
+keras=2.2.24
